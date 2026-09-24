@@ -1,0 +1,30 @@
+{
+  "schema": "XI_BENCHMARK_V1",
+  "status": "FROZEN_TEMPLATE_NO_RESULTS",
+  "role_id": "TRANSFER_GENERALIZATION_EXAMINER",
+  "domains": [
+    "cross_domain_transfer",
+    "scale_transfer",
+    "population_transfer",
+    "regime_transfer",
+    "representation_transfer",
+    "generalization_failure"
+  ],
+  "m6_rule": "M6_NEVER_IN_TRAIN",
+  "modes": [
+    "BASE_MODEL_ALONE",
+    "XI_PRETRAIN_SCAFFOLD",
+    "XI_TRAINED",
+    "XI_PLUS_MINIMAL_COALITION"
+  ],
+  "metrics": [
+    "role_accuracy",
+    "critical_error_rate",
+    "calibration",
+    "transfer",
+    "regression",
+    "latency",
+    "provenance_completeness"
+  ],
+  "result_status": "NO_EXECUTED_BASELINE_YET"
+}
